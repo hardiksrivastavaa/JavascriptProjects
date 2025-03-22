@@ -5,8 +5,8 @@ const projects = [
         name: "1. Quote Generator",
         about: "Generate a random quote with the click of a button.",
         image: "1. Quote Generator/favicon.png",
-        github: "1.%20Quote%20Generator/index.html",
-        live: "https://jsprojects.vercel.app/quote-generator/",
+        github: "https://github.com/hardiksrivastavaa/JavascriptProjects/tree/main/1.%20Quote%20Generator",
+        live: "1. Quote Generator/index.html",
     },
 ];
 
