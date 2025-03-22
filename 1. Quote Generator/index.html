@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote Generator</title>
+
+    <link rel="shortcut icon" href="qg.png" type="image/png">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="quote-container" id="quote-container">
+        
+        <!-- Quote -->
+
+        <div class="quote-text">
+            <i class="fas fa-quote-left"></i>
+            <span id="quote"></span>
+        </div>
+
+        <!-- Author -->
+
+        <div class="quote-author">
+            <span id="author"></span>
+        </div>
+
+        <!-- Buttons -->
+
+        <div class="button-container">
+            <button class="twitter-button" id="twitter" title="Tweet This!" onclick="tweetQuote()">
+                <i class="fab fa-x-twitter"></i>
+            </button>
+            <button id="new-quote" onclick="getRandomQuote()">New Quote</button>
+        </div>
+    </div>
+
+    <!-- Loader -->
+
+    <div class="loader" id="loader"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
