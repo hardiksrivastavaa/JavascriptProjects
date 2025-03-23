@@ -8,6 +8,14 @@ const projects = [
         github: "https://github.com/hardiksrivastavaa/JavascriptProjects/tree/main/1.%20Quote%20Generator",
         live: "1. Quote Generator/index.html",
     },
+    {
+        name: "2. Infinite Scroll",
+        about: "Infinite scroll through images from Unsplash.",
+        image: "2. Infinite Scroll/favicon.png",
+        github: "https://github.com/hardiksrivastavaa/JavascriptProjects/tree/main/2.%20Infinite%20Scroll",
+        live: "https://scrollinfinity.vercel.app/",
+    },
+
 ];
 
 projects.forEach((project) => {
