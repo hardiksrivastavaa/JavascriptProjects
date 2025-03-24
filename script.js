@@ -15,6 +15,13 @@ const projects = [
         github: "https://github.com/hardiksrivastavaa/JavascriptProjects/tree/main/2.%20Infinite%20Scroll",
         live: "https://scrollinfinity.vercel.app/",
     },
+    {
+        name: "3. Picture In Picture",
+        about: "Watch videos in Picture in Picture mode.",
+        image: "3. Picture In Picture/favicon.png",
+        github: "https://github.com/hardiksrivastavaa/JavascriptProjects/tree/main/3.%20Picture%20In%20Picture",
+        live: "3. Picture In Picture/index.html",
+    },
 
 ];
 

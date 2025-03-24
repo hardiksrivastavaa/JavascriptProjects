@@ -4,25 +4,22 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Infinite Scroll</title>
+    <title>Picture In Picture</title>
 
     <link rel="shortcut icon" href="favicon.png" type="image/png" />
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <!-- title -->
 
-    <h1>Unplash API - Infinite Scroll</h1>
+    <!-- Video  -->
 
-    <!-- loader -->
+    <video id="video" controls height="360" width="640" hidden></video>
 
-    <div class="loader" id="loader">
-        <img src="loader.svg" alt="loading" />
-    </div>
+    <!-- Button  -->
 
-    <div id="image-container" class="image-container">
-        <!-- images will apear here via script.js -->
+    <div class="button-container">
+        <button id="button">Start</button>
     </div>
 
     <script src="script.js"></script>
